@@ -21,6 +21,10 @@ export default function Home() {
           <div className="text-gray-600">tawadancanda@gmail.com</div>
         </div>
       </div>
+      <div className="p-4 shadow rounded bg-white container mx-auto">
+        <h1 className="text-purple-500 leading-normal">Next.js</h1>
+        <p className="text-gray-500">with Tailwind CSS</p>
+      </div>
     </Fragment>
   );
 }
