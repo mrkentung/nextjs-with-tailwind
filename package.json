@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:analyze": "cross-env ANALYZE=true next build",
+    "clean:build": "rm -rf out .next*"
   },
   "dependencies": {
     "next": "10.0.0",
@@ -15,7 +17,9 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^10.0.0",
     "@fullhuman/postcss-purgecss": "^3.0.0",
+    "cross-env": "^7.0.2",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.9.6"
   }
